@@ -3,6 +3,30 @@
     background-color:#00284B;
 }
 
+.navlayout{
+    align-items: center !important;
+}
+
+.logo{
+    margin-left: 3rem !important;
+}
+
 .menus{
     display: flex;
+    gap: 2rem;
+}
+
+.menus p{
+    color:#FFFFFF;
+}
+
+.account{
+    display: flex;
+    margin-left: 13rem !important;
+    gap:1rem;
+    align-items: center;
+}
+
+.currentuser{
+    color:#FFFFFF;
 }

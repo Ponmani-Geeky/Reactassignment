@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Navbar.css"
-import group from '../../assests/logo.jpg'
-import icons from '../../assests/Icons.jpg'
-import Notification from '../../assests/Notification.jpg'
+import logo from '../../assests/logo.svg'
+import icons from '../../assests/Icons.svg'
+import Notification from '../../assests/Notification.svg'
 import Grid from '@mui/material/Grid';
 const Navbar=()=>{
 
@@ -10,19 +10,19 @@ const Navbar=()=>{
   return(
     <>
     <div className='navbar'>
-    <Grid container spacing={3}>
-  <Grid item xs={4}>
-  <img src={group}/>
+    <Grid container spacing={3} className={'navlayout'}>
+  <Grid item xs={3} className='logo'>
+  <img src={logo} width='150px'/>
   </Grid>
   <Grid item xs={4} className='menus'>
      <p>Home</p>
      <p>Lettings</p>
      <p>Rent</p>
   </Grid>
-  <Grid item xs={4}>
-  <img src={Notification}/>
-  <img src={icons}/>
-  <p>My Druce</p>
+  <Grid item xs={3} className='account'>
+  <img src={Notification} width='30px' height='35px'/>
+  <img src={icons} width='30px' height='35px'/>
+  <p className='currentuser'>My Druce</p>
   </Grid>
 </Grid>
     </div>

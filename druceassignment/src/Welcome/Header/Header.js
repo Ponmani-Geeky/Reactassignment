@@ -12,8 +12,9 @@ const Header=()=>{
           key="2"
           color="inherit"
           href="/material-ui/getting-started/installation/"
+          
         >
-          Overview
+          <p className='overviewlink'>Overview</p>
         </Link>
       ];
 
@@ -24,11 +25,11 @@ const Header=()=>{
         <Breadcrumbs separator="›" aria-label="breadcrumb">
         {breadcrumbs}
       </Breadcrumbs>
-      <p>Welcome to Druce</p>
+      <p className='welcometxt'>Welcome to Druce</p>
         </div>
         <div>
-        <button>Overview</button>
-        <button>Contacts</button>
+        <button className='overviewbtn'>Overview</button>
+        <button className='contactbtn'>Contacts</button>
         </div>
         </div>
         </div>

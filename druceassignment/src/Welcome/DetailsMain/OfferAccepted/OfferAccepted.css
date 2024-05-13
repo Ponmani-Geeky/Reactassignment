@@ -1,12 +1,84 @@
 .OfferLayout{
-    width: 49rem;
-height: 10rem;
-margin-top: 1rem;
+    width: 85%;
+height: 13rem;
+margin-top: 2rem;
 margin-left: 6rem;
 padding: 22px 16px 22px 16px;
 gap: 24px;
 border-radius: 4px 0px 0px 0px;
 opacity: 0px;
 background-color:rgba(210, 224, 203, 1);
+}
+
+.offertxt{
+    color:#00284B;
+font-size: 23px;
+font-weight: 500;
+line-height: 32.2px;
+letter-spacing: -0.02em;
+text-align: left;
+margin-bottom: 0.6rem;
+}
+
+.offerdes{
+font-size: 19px;
+font-weight: 400;
+line-height: 26.6px;
+letter-spacing: -0.02em;
+text-align: left;
+
+}
+
+.offerdetails{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.offeredspace{
+    display: flex;
+    gap:1.4rem;
+    align-items: center;
+}
+
+.offerdetail{
+    display: flex;
+}
+
+.offertitle{
+    margin-bottom: -0.6rem;
+font-size: 23px;
+font-weight: 400;
+line-height: 32.2px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #212121;
 ;
+
+}
+.offerloc{
+    display: flex;
+    margin-bottom: -1.5rem;
+}
+
+.imgoffer{
+    margin-right: 0.4rem;
+}
+
+.offeramenites{
+    display: flex;
+    margin-right: 1rem;
+}
+
+.proceedbtn{
+    width: 107px;
+height: 56px;
+padding: 16px 24px 16px 24px;
+gap: 8px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+color: #ffff;
+background-color:#00284B;
+;
+
 }

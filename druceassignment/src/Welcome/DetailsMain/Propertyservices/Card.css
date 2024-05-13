@@ -1,6 +1,81 @@
-.recommandedcard{
-    width: 10rem;
-    height: 14rem;
-    background-color:rgba(104, 153, 164, 1);
+.propertycard{
+    width: 16rem;
+    height: 23rem;
+    box-shadow: 0px 2.34px 4.68px 0px #00000029;
     margin-left: 1.5rem;
+    background-color: #FFFFFF;
+}
+
+.proptitle{
+    display: flex;
+}
+
+.proptitletxt{
+font-family: Ubuntu;
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+letter-spacing: -0.02em;
+color:#000000;
+;
+}
+
+.propdetails{
+    margin-left: 0.7rem;
+}
+
+.learn{
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.learnicon{
+    width: 11.7px;
+height: 11.7px;
+top: 1.17px;
+left: 1.17px;
+gap: 0px;
+opacity: 0px;
+color: #2094E9;
+margin-right: 0.2rem;
+}
+
+.learnmoretxt{
+font-family: Ubuntu;
+font-size: 11px;
+font-weight: 400;
+line-height: 15.4px;
+letter-spacing: -0.02em;
+color: #2094E9;
+}
+
+.description{
+    font-family: Ubuntu;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18.2px;
+    letter-spacing: -0.02em;
+    color:#6B7280;
+    ;
+}
+
+.btn{
+    background: #1A295B;
+    color: #ffff;
+    width: 166px;
+    height: 55px;
+padding: 16px 24px 16px 24px;
+gap: 8px;
+border-radius: 4px 0px 0px 0px;
+margin-top: 0.5rem;
+}
+
+.propertytxt{
+font-size: 26px;
+font-weight: 400;
+line-height: 46.2px;
+letter-spacing: -0.02em;
+text-align: left;
+
 }

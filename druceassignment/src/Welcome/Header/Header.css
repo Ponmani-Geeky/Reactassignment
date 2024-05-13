@@ -10,3 +10,41 @@
     gap: 8px;
     opacity: 0px;    
 }
+
+.welcometxt{
+    color: #212121;
+font-size: 23px;
+font-weight: 500;
+line-height: 32.2px;
+letter-spacing: -0.02em;
+}
+
+.overviewlink{
+font-size: 13px;
+font-weight: 500;
+line-height: 18.2px;
+letter-spacing: -0.02em;
+    color:  #1A295B;
+}
+
+.overviewbtn{
+    border-bottom: 2px solid var(--Primary, #1A295B);
+    background: #1A295B;
+    color: #ffff;
+    width: Hug (115px)px;
+height: Hug (38px)px;
+padding: 8px 24px 8px 24px;
+gap: 8px;
+border: 0px 0px 2px 0px;
+opacity: 0px;
+}
+
+.contactbtn{
+    width: Hug (115px)px;
+    height: Hug (38px)px;
+    padding: 8px 24px 8px 24px;
+    gap: 8px;
+    opacity: 0px;
+    background-color: white;
+    border-color: white;
+}
