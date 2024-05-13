@@ -1,0 +1,12 @@
+.OfferLayout{
+    width: 49rem;
+height: 10rem;
+margin-top: 1rem;
+margin-left: 6rem;
+padding: 22px 16px 22px 16px;
+gap: 24px;
+border-radius: 4px 0px 0px 0px;
+opacity: 0px;
+background-color:rgba(210, 224, 203, 1);
+;
+}

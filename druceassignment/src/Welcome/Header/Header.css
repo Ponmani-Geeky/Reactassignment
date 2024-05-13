@@ -1,0 +1,12 @@
+.Header{
+   
+}
+
+.HeaderLayout{
+    box-shadow: 0px 2.8px 7.5px 0px rgba(50, 50, 71, 0.05);
+    width: Fill (1,441px)px;
+    height: Hug (38px)px;
+    padding: 0px 0px 0px 100px;
+    gap: 8px;
+    opacity: 0px;    
+}
